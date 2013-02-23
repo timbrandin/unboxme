@@ -15,7 +15,7 @@ For both mac and unix.
 * Staging
 * Deployment
 
-## Unboxing
+## Getting started
 
 `curl http://github.com/unboxme/unboxme.sh | sh`
 
