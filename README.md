@@ -124,7 +124,7 @@ github auto-branching and auto-tagging for every live-deploy.
 
 Short version: `nb backend-boys drupal-7.x -s`
 
-1. Creates new project "backend-boys" from sample "drupal-bootstrap"
+1. Creates new project "backend-boys" from sample "drupal-7.x"
 2. Navigates to project
 3. Initates project environment
 2. Builds and installs as usual with new projects
