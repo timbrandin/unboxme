@@ -20,7 +20,15 @@ Samples is also listed here: http://github.com/unboxme/packages
 
 ## Install / Re-install
 
-`unboxme [__PROJECT__] install`
+`unboxme [__PROJECT__] install [__LOCAL__]`
+
+Installs the project and sets local project url to __LOCAL__.
+
+## Add package
+
+`unboxme [__PROJECT__] add __PACKAGE__`
+
+Packages is also listed here: http://github.com/unboxme/packages.
 
 ## Stage
 
@@ -37,29 +45,38 @@ Samples is also listed here: http://github.com/unboxme/packages
 * Terminates any other current running project and initates __PROJECT__.
 * Will also set the title of the terminal to read __PROJECT__ in uppercase. 
 
-## Add package
-
-`unboxme [__PROJECT__] add __PACKAGE__`
-
-Packages is also listed here: http://github.com/unboxme/packages.
-
 ## Destroy project
 
 `unboxme [__PROJECT__] destroy`
 
-## Upgrade unboxes
+## Upgrade unboxme on your machine
 
 `unboxme upgrade`
 
-## Uninstall unboxes
+## Remove unboxme from your machine
 
-`unboxme unistall`
+`unboxme remove`
 
-## Install extenstions
+## Extend unboxme with extensions
 
-`unboxme install __EXTENSION__`
+`unboxme extend __EXTENSION__`
 
 Extensions is also listed here: http://github.com/unboxme/extenstions.
+
+## Queuing multiple commands examples
+
+`unboxme backend-boys drupal-bootstrap stage`
+
+1. Creates new project "backend-boys" from sample "drupal-bootstrap"
+2. Builds and installs as usual with new projects
+3. Stages project to for example: fingerstache-wolf.unbox.me
+
+`unboxme backend-boys build install stage`
+
+1. Navigates to project "backend-boys"
+2. Builds the project
+3. Installs the project
+3. Stages project to for example: fingerstache-wolf.unbox.me
 
 # Manual
 
