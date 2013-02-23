@@ -14,6 +14,7 @@ For both mac and unix.
 * Versioning
 * Staging
 * Deployment
+* It is always up to date!
 
 ## Getting started
 
@@ -98,17 +99,21 @@ Short version: `nb [__PROJECT__] destroy`
 
 ## Upgrade unboxme on your machine
 
-`unboxme upgrade`
+No need, UnboxMe is always up to date!
 
 ## Uninstall unboxme from your machine
 
 `unboxme uninstall`
+
+If you f*cked everything up, just delete the ~/boxes/.unboxme folder.
 
 ## Extend unboxme with extensions
 
 `unboxme extend __EXTENSION__`
 
 Extensions is also listed here: http://github.com/unboxme/extenstions.
+They are mostly used to extend UnboxMe with functionality such as automatic tweets, 
+github auto-branching and auto-tagging for every live-deploy.
 
 ## Combining multiple commands, examples
 
