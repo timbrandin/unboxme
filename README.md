@@ -31,7 +31,7 @@ Samples is also listed here: http://github.com/unboxme/samples
 
 ## Create project out of existing source
 
-`unboxme __FOLDER__`
+`unboxme [__FOLDER__]`
 
 Short version: `nb __FOLDER__`
 
