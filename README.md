@@ -94,6 +94,8 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 Short version: `nb backend-boys drupal-bootstrap -s`
 
 1. Creates new project "backend-boys" from sample "drupal-bootstrap"
+2. Navigates to project
+3. Initates project environment
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
@@ -102,6 +104,7 @@ Short version: `nb backend-boys drupal-bootstrap -s`
 Short version: `nb backend-boys -bio`
 
 1. Navigates to project "backend-boys"
+2. Initates project environment
 2. Builds the project
 3. Installs the project
 4. Opens project in default browser
