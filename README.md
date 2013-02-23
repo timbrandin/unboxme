@@ -33,7 +33,7 @@ Samples is also listed here: http://github.com/unboxme/samples
 
 `unboxme [__FOLDER__]`
 
-Short version: `nb __FOLDER__`
+Short version: `nb [__FOLDER__]`
 
 ## Build / Re-build
 
