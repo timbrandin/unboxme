@@ -44,13 +44,13 @@ Short version: `nb [__PROJECT__] -o`
 
 Short version: `nb [__PROJECT__] ++__PACKAGE__`
 
+Packages is also listed here: http://github.com/unboxme/packages.
+
 ## Remove package
 
 `unboxme [__PROJECT__] remove __PACKAGE__`
 
 Short version: `nb [__PROJECT__] --__PACKAGE__`
-
-Packages is also listed here: http://github.com/unboxme/packages.
 
 ## Stage
 
