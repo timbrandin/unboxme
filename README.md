@@ -99,7 +99,7 @@ Short version: `nb backend-boys drupal-bootstrap -s`
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-`unboxme backend-boys build install`
+`unboxme backend-boys build install open`
 
 Short version: `nb backend-boys -bio`
 
