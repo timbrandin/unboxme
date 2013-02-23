@@ -89,11 +89,11 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 
 ## Combining multiple commands, examples
 
-### Create a project and stage it.
+### Create a project from sample and stage it.
 
-`unboxme backend-boys drupal-bootstrap stage`
+`unboxme backend-boys drupal-7.x stage`
 
-Short version: `nb backend-boys drupal-bootstrap -s`
+Short version: `nb backend-boys drupal-7.x -s`
 
 1. Creates new project "backend-boys" from sample "drupal-bootstrap"
 2. Navigates to project
