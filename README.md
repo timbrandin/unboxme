@@ -85,20 +85,20 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 
 `unboxme backend-boys drupal-bootstrap stage`
 
+Short version: `nb backend-boys drupal-bootstrap -s`
+
 1. Creates new project "backend-boys" from sample "drupal-bootstrap"
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-Short version: `nb backend-boys drupal-bootstrap -s`
-
 `unboxme backend-boys build install stage`
+
+Short version: `nb backend-boys -bis`
 
 1. Navigates to project "backend-boys"
 2. Builds the project
 3. Installs the project
 3. Stages project to for example: fingerstache-wolf.unbox.me
-
-Short version: `nb backend-boys -bis`
 
 ## Manual
 
