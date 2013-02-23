@@ -7,6 +7,7 @@ For both mac and unix.
 
 ### Features
 * Virtualization
+* Unboxing (Creation/Setup of a distributions).
 * Building
 * Installing
 * Extending
