@@ -1,5 +1,7 @@
 # An imaginary console application.
 
+For both mac and unix.
+
 ### Features
 * Virtualization
 * Building
@@ -8,8 +10,6 @@
 * Versioning
 * Staging
 * Deployment
-
-For both mac and unix.
 
 ## Unboxing
 
