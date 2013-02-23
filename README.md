@@ -6,7 +6,7 @@ Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, etc).
 
 ## Create new project
 
-`unboxme __PROJECT__ [from __SAMPLE__]`
+`unboxme __PROJECT__ [__SAMPLE__]`
 
 Samples is also listed here: http://github.com/unboxme/packages
 
