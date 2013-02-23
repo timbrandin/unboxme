@@ -2,7 +2,7 @@
 
 `curl http://github.com/unboxme/unboxme.sh | sh`
 
-Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, etc).
+Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc).
 
 ## Create new project
 
