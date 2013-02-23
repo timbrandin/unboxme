@@ -23,7 +23,7 @@ Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc
 
 Short version: `nb __PROJECT__ [__SAMPLE__]`
 
-Samples is also listed here: http://github.com/unboxme/packages
+Samples is also listed here: http://github.com/unboxme/samples
 
 ## Create project out of existing source
 
