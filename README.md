@@ -32,6 +32,12 @@ Short version: `nb [__PROJECT__] -i [__LOCAL__]`
 
 Installs the project and sets local project url to __LOCAL__.
 
+## Open project in browser
+
+`unboxme [__PROJECT__] open`
+
+Short version: `nb [__PROJECT__] -o`
+
 ## Add package
 
 `unboxme [__PROJECT__] add __PACKAGE__`
@@ -91,14 +97,14 @@ Short version: `nb backend-boys drupal-bootstrap -s`
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-`unboxme backend-boys build install stage`
+`unboxme backend-boys build install`
 
-Short version: `nb backend-boys -bis`
+Short version: `nb backend-boys -bio`
 
 1. Navigates to project "backend-boys"
 2. Builds the project
 3. Installs the project
-3. Stages project to for example: fingerstache-wolf.unbox.me
+4. Opens project in default browser
 
 ## Manual
 
