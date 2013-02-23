@@ -96,9 +96,9 @@ Short version: `nb [__PROJECT__] destroy`
 
 `unboxme upgrade`
 
-## Remove unboxme from your machine
+## Uninstall unboxme from your machine
 
-`unboxme remove`
+`unboxme uninstall`
 
 ## Extend unboxme with extensions
 
