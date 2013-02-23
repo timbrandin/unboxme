@@ -1,4 +1,4 @@
-# An [imaginary] web development environment application manager.
+# An [imaginary] web development environment manager.
 
 For both mac and unix.
 
