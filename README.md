@@ -18,7 +18,8 @@ For both mac and unix.
 
 ## Getting started
 
-`curl http://github.com/unboxme/unboxme.sh | sh`
+Mac: `wget http://github.com/unboxme/unboxme.sh | sh`
+Unix: `curl http://github.com/unboxme/unboxme.sh | sh`
 
 Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc).
 
