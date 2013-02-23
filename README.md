@@ -42,7 +42,13 @@ Short version: `nb [__PROJECT__] -o`
 
 `unboxme [__PROJECT__] add __PACKAGE__`
 
-Short version: `nb [__PROJECT__] +__PACKAGE__`
+Short version: `nb [__PROJECT__] ++__PACKAGE__`
+
+## Remove package
+
+`unboxme [__PROJECT__] remove __PACKAGE__`
+
+Short version: `nb [__PROJECT__] --__PACKAGE__`
 
 Packages is also listed here: http://github.com/unboxme/packages.
 
@@ -115,9 +121,9 @@ Short version: `nb backend-boys -bio`
 
 ### Create a project from sample, add packages, build, install and open in browser.
 
-`unboxme frontenders drupal8 open +bootstrap +account-social`
+`unboxme frontenders drupal8 open add bootstrap add account-social`
 
-Short version: `nb frontenders drupal8 -o +bootstrap +account-social`
+Short version: `nb frontenders drupal8 -o ++bootstrap ++account-social`
 
 1. Creates new project "frontenders" from sample "drupal8"
 2. Adds "bootstrap" package
