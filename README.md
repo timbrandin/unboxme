@@ -63,7 +63,7 @@ Short version: `nb [__PROJECT__]`
 
 ## Destroy project
 
-`unboxme [__PROJECT__] remove`
+`unboxme [__PROJECT__] destroy`
 
 Short version: `nb [__PROJECT__] destroy`
 
