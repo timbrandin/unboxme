@@ -1,3 +1,16 @@
+# An imaginary console application.
+
+### Features
+* Virtualization
+* Building
+* Installing
+* Extending
+* Versioning
+* Staging
+* Deployment
+
+For both mac and unix.
+
 ## Unboxing
 
 `curl http://github.com/unboxme/unboxme.sh | sh`
