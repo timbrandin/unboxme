@@ -8,7 +8,7 @@ Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, etc).
 
 `unboxme __PROJECT__ [__SAMPLE__]`
 
-Short version: `ubx __PROJECT__ [__SAMPLE__]`
+Short version: `un __PROJECT__ [__SAMPLE__]`
 
 Samples is also listed here: http://github.com/unboxme/packages
 
@@ -16,19 +16,19 @@ Samples is also listed here: http://github.com/unboxme/packages
 
 `unboxme __FOLDER__`
 
-Short version: `ubx __FOLDER__`
+Short version: `un __FOLDER__`
 
 ## Build / Re-build
 
 `unboxme [__PROJECT__] build [__BRANCH__]`
 
-Short version: `ubx [__PROJECT__] -b [__BRANCH__]`
+Short version: `un [__PROJECT__] -b [__BRANCH__]`
 
 ## Install / Re-install
 
 `unboxme [__PROJECT__] install [__LOCAL__]`
 
-Short version: `ubx [__PROJECT__] -i [__LOCAL__]`
+Short version: `un [__PROJECT__] -i [__LOCAL__]`
 
 Installs the project and sets local project url to __LOCAL__.
 
@@ -36,7 +36,7 @@ Installs the project and sets local project url to __LOCAL__.
 
 `unboxme [__PROJECT__] add __PACKAGE__`
 
-Short version: `ubx [__PROJECT__] + __PACKAGE__`
+Short version: `un [__PROJECT__] + __PACKAGE__`
 
 Packages is also listed here: http://github.com/unboxme/packages.
 
@@ -44,19 +44,19 @@ Packages is also listed here: http://github.com/unboxme/packages.
 
 `unboxme [__PROJECT__] stage [__LOCATION__]`
 
-Short version: `ubx [__PROJECT__] -s  [__LOCATION__]`
+Short version: `un [__PROJECT__] -s  [__LOCATION__]`
 
 ## Deploy
 
 `unboxme [__PROJECT__] deploy [__LOCATION__]`
 
-Short version: `ubx [__PROJECT__] -d [__LOCATION__]`
+Short version: `un [__PROJECT__] -d [__LOCATION__]`
 
 ## Navigate / Switch to a project from anywhere
 
 `unboxme __PROJECT__`
 
-Short version: `ubx [__PROJECT__]`
+Short version: `un [__PROJECT__]`
 
 * Terminates any other current running project and initates __PROJECT__.
 * Will also set the title of the terminal to read __PROJECT__ in uppercase. 
@@ -65,7 +65,7 @@ Short version: `ubx [__PROJECT__]`
 
 `unboxme [__PROJECT__] remove`
 
-Short version: `ubx [__PROJECT__] destroy`
+Short version: `un [__PROJECT__] destroy`
 
 ## Upgrade unboxme on your machine
 
@@ -89,7 +89,7 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-Short version: `ubx backend-boys drupal-bootstrap -s`
+Short version: `un backend-boys drupal-bootstrap -s`
 
 `unboxme backend-boys build install stage`
 
@@ -98,7 +98,7 @@ Short version: `ubx backend-boys drupal-bootstrap -s`
 3. Installs the project
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-Short version: `ubx backend-boys -bis`
+Short version: `un backend-boys -bis`
 
 ## Manual
 
