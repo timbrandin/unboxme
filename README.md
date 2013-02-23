@@ -71,6 +71,8 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
+Short version: `ubx backend-boys drupal-bootstrap -s`
+
 `unboxme backend-boys build install stage`
 
 1. Navigates to project "backend-boys"
@@ -78,6 +80,8 @@ Extensions is also listed here: http://github.com/unboxme/extenstions.
 3. Installs the project
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
-# Manual
+Short version command: `ubx backend-boys -bis`
+
+## Manual
 
 `unboxme man`
