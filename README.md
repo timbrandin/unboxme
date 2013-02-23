@@ -1,6 +1,9 @@
-# An imaginary console application.
+# An [imaginary] web development environment application manager.
 
 For both mac and unix.
+
+### Requirements
+* A __github__ account setup and working.
 
 ### Features
 * Virtualization
