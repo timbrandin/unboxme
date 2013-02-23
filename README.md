@@ -42,7 +42,7 @@ Short version: `nb [__PROJECT__] -o`
 
 `unboxme [__PROJECT__] add __PACKAGE__`
 
-Short version: `nb [__PROJECT__] + __PACKAGE__`
+Short version: `nb [__PROJECT__] +__PACKAGE__`
 
 Packages is also listed here: http://github.com/unboxme/packages.
 
@@ -87,7 +87,9 @@ Short version: `nb [__PROJECT__] destroy`
 
 Extensions is also listed here: http://github.com/unboxme/extenstions.
 
-## Queuing multiple commands examples
+## Combining multiple commands, examples
+
+### Create a project and stage it.
 
 `unboxme backend-boys drupal-bootstrap stage`
 
@@ -99,6 +101,8 @@ Short version: `nb backend-boys drupal-bootstrap -s`
 2. Builds and installs as usual with new projects
 3. Stages project to for example: fingerstache-wolf.unbox.me
 
+### Re-build, re-install and open in browser.
+
 `unboxme backend-boys build install open`
 
 Short version: `nb backend-boys -bio`
@@ -108,6 +112,19 @@ Short version: `nb backend-boys -bio`
 2. Builds the project
 3. Installs the project
 4. Opens project in default browser
+
+### Create a project from sample, add packages, build, install and open in browser.
+
+`unboxme frontenders drupal8 open +bootstrap +account-social`
+
+Short version: `nb frontenders drupal8 -o +bootstrap +account-social`
+
+1. Creates new project "frontenders" from sample "drupal8"
+2. Adds "bootstrap" package
+3. Adds "account-social"
+4. Builds and installs as usual with new projects
+5. Opens project in default browser
+
 
 ## Manual
 
