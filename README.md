@@ -19,7 +19,7 @@ For both mac and unix.
 
 ## Getting started
 
-* OSX: `brew install unboxme`
+* OS X: `brew install unboxme`
 * Debian: `apt-get install unboxme`
 
 Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc).
