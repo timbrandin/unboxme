@@ -40,9 +40,11 @@ Short version: `nb [__FOLDER__]`
 
 ## Build / Re-build
 
-`unboxme [__PROJECT__] build [__BRANCH__]`
+`unboxme [__PROJECT__] [build [__BRANCH__]]`
 
 Short version: `nb [__PROJECT__] -b [__BRANCH__]`
+
+Default is master, btw master should always be deployable so keep your changes in branches.
 
 ## Install / Re-install
 
@@ -66,11 +68,23 @@ Short version: `nb [__PROJECT__] +__PACKAGE__`
 
 Packages is also listed here: http://github.com/unboxme/packages.
 
+1. Downloads the package
+2. The environment creates a dump of the database.
+2. Enables and installs the package
+3. Runs a database update if needed.
+3. If everything didn't go fine, the system reverts the changes and restores the database as it was.
+4. If everything went fine, creates a new commit for the addition.
+
 ## Remove package
 
 `unboxme [__PROJECT__] remove __PACKAGE__`
 
 Short version: `nb [__PROJECT__] --__PACKAGE__`
+
+1. Uninstalls the package
+2. Removes the package from database
+3. Removes the code from the system.
+4. Commits the changes to git.
 
 ## Stage
 
