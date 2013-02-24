@@ -18,7 +18,7 @@ For both OS X and Debian.
 
 ## Getting started
 
-* OS X: `wget http://github.com/unboxme/osx-install.sh | sh`
+* OS X: `wget http://github.com/unboxme/osx-install.sh -O - | sh`
   * Installs [Homebrew](http://mxcl.github.com/homebrew/) and runs `brew install unboxme`
 * Debian: `apt-get install unboxme`
 
