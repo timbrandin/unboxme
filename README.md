@@ -4,6 +4,7 @@ For both mac and unix.
 
 ### Requirements
 * A __github__ account setup and working.
+* [http://mxcl.github.com/homebrew/](Homebrew) on OSX.
 
 ### Features
 * Virtualization
@@ -18,8 +19,8 @@ For both mac and unix.
 
 ## Getting started
 
-* Mac: `wget http://github.com/unboxme/unboxme.sh | sh`
-* Unix: `curl http://github.com/unboxme/unboxme.sh | sh`
+* OSX: `brew install unboxme`
+* Debian: `apt-get install unboxme`
 
 Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc).
 
