@@ -4,7 +4,7 @@ For both mac and unix.
 
 ### Requirements
 * A __github__ account setup and working.
-* [http://mxcl.github.com/homebrew/](Homebrew) on OSX.
+* [Homebrew](http://mxcl.github.com/homebrew/) on OSX.
 
 ### Features
 * Virtualization
