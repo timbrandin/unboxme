@@ -34,13 +34,13 @@ Samples is also listed here: http://github.com/unboxme/samples
 
 ## Create project out of existing source
 
-`unboxme [__FOLDER__]`
+    unboxme [__FOLDER__]
 
 Short version: `nb [__FOLDER__]`
 
 ## Build / Re-build
 
-`unboxme [__PROJECT__] [build [__BRANCH__]]`
+    unboxme [__PROJECT__] [build [__BRANCH__]]
 
 Short version: `nb [__PROJECT__] -b [__BRANCH__]`
 
@@ -48,7 +48,7 @@ Default is master, btw master should always be deployable so keep your changes i
 
 ## Install / Re-install
 
-`unboxme [__PROJECT__] install [__LOCAL__]`
+    unboxme [__PROJECT__] install [__LOCAL__]
 
 Short version: `nb [__PROJECT__] -i [__LOCAL__]`
 
@@ -56,13 +56,13 @@ Installs the project and sets local project url to __LOCAL__.
 
 ## Open project in browser
 
-`unboxme [__PROJECT__] open`
+    unboxme [__PROJECT__] open
 
 Short version: `nb [__PROJECT__] -o`
 
 ## Add package
 
-`unboxme [__PROJECT__] add __PACKAGE__`
+    unboxme [__PROJECT__] add __PACKAGE__
 
 Short version: `nb [__PROJECT__] +__PACKAGE__`
 
@@ -79,7 +79,7 @@ Packages is also listed here: http://github.com/unboxme/packages.
 
 ## Remove package
 
-`unboxme [__PROJECT__] remove __PACKAGE__`
+    unboxme [__PROJECT__] remove __PACKAGE__
 
 Short version: `nb [__PROJECT__] --__PACKAGE__`
 
@@ -91,19 +91,19 @@ Short version: `nb [__PROJECT__] --__PACKAGE__`
 
 ## Stage
 
-`unboxme [__PROJECT__] stage [__LOCATION__]`
+    unboxme [__PROJECT__] stage [__LOCATION__]
 
 Short version: `nb [__PROJECT__] -s  [__LOCATION__]`
 
 ## Deploy
 
-`unboxme [__PROJECT__] deploy [__LOCATION__]`
+    unboxme [__PROJECT__] deploy [__LOCATION__]
 
 Short version: `nb [__PROJECT__] -d [__LOCATION__]`
 
 ## Navigate / Switch to a project from anywhere
 
-`unboxme __PROJECT__`
+    unboxme __PROJECT__
 
 Short version: `nb [__PROJECT__]`
 
@@ -112,7 +112,7 @@ Short version: `nb [__PROJECT__]`
 
 ## Destroy project
 
-`unboxme [__PROJECT__] destroy`
+    unboxme [__PROJECT__] destroy
 
 Short version: `nb [__PROJECT__] destroy`
 
@@ -122,13 +122,13 @@ No need, UnboxMe is always up to date!
 
 ## Uninstall unboxme from your machine
 
-`unboxme uninstall`
+    unboxme uninstall
 
 If you f*cked everything up, just delete the ~/boxes/.unboxme folder.
 
 ## Extend unboxme with extensions
 
-`unboxme extend __EXTENSION__`
+    unboxme extend __EXTENSION__
 
 Extensions is also listed here: http://github.com/unboxme/extenstions.
 They are mostly used to extend UnboxMe with functionality such as automatic tweets, 
@@ -138,7 +138,7 @@ github auto-branching and auto-tagging for every live-deploy.
 
 ### Create a project from sample and stage it.
 
-`unboxme backend-boys drupal-7.x stage`
+    unboxme backend-boys drupal-7.x stage
 
 Short version: `nb backend-boys drupal-7.x -s`
 
@@ -150,7 +150,7 @@ Short version: `nb backend-boys drupal-7.x -s`
 
 ### Re-build, re-install and open in browser.
 
-`unboxme backend-boys build install open`
+    unboxme backend-boys build install open
 
 Short version: `nb backend-boys -bio`
 
@@ -162,7 +162,7 @@ Short version: `nb backend-boys -bio`
 
 ### Create a project from sample, add packages, build, install and open in browser.
 
-`unboxme frontenders drupal8 open add bootstrap add account-social`
+    unboxme frontenders drupal8 open add bootstrap add account-social
 
 Short version: `nb frontenders drupal8 -o +bootstrap +account-social`
 
@@ -175,4 +175,4 @@ Short version: `nb frontenders drupal8 -o +bootstrap +account-social`
 
 ## Manual
 
-`unboxme man`
+    unboxme man
