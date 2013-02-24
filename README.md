@@ -73,9 +73,9 @@ Packages is also listed here: http://github.com/unboxme/packages.
 2. Enables and installs the package
 3. Runs a database update if needed.
 3. If everything didn't go fine, the system reverts the changes and restores the database as it was.
-  * This can be adverted by using the --f (force) flag.
+  * This can be adverted by using the -f (force) flag.
 4. If everything went fine, creates a new commit for the addition.
-  * This can be avoided by using the --p (preview) flag.
+  * This can be avoided by using the -p (preview) flag.
 
 ## Remove package
 
@@ -87,7 +87,7 @@ Short version: `nb [__PROJECT__] --__PACKAGE__`
 2. Removes the package from database
 3. Removes the code from the system.
 4. Commits the changes to git.
-  * This can be avoided by using the --p (preview) flag.
+  * This can be avoided by using the -p (preview) flag.
 
 ## Stage
 
