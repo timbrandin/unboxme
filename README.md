@@ -26,7 +26,7 @@ Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc
 
 ## Create new project
 
-`unboxme __PROJECT__ [__SAMPLE__]`
+    unboxme __PROJECT__ [__SAMPLE__]
 
 Short version: `nb __PROJECT__ [__SAMPLE__]`
 
