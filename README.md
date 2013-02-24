@@ -38,6 +38,12 @@ Samples is also listed here: http://github.com/unboxme/samples
 
 Short version: `nb [__FOLDER__]`
 
+## Create project from github
+
+    unboxme [__LOCATION__]
+
+Short version: `nb [__LOCATION__]`
+
 ## Build / Re-build
 
     unboxme [__PROJECT__] [build [__BRANCH__]]
