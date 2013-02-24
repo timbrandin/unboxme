@@ -1,6 +1,6 @@
 # An [imaginary] web development environment manager.
 
-For both mac and unix.
+For both OS X and Debian.
 
 ### Requirements
 * A __github__ account setup and working.
