@@ -109,7 +109,7 @@ Short version: `nb [__PROJECT__]`
 
 * Terminates any other current running project and initates __PROJECT__.
 * Will also set the title of the terminal to read __PROJECT__ in uppercase. 
-* If project is left out one is only navigated to ~/boxes, nothing is 
+* If __PROJECT__ is left out one is only navigated to ~/boxes, nothing is 
 terminated unless the flag -t (terminate) is passed along. 
 
 ## Destroy project
