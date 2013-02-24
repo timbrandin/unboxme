@@ -89,6 +89,18 @@ Short version: `nb [__PROJECT__] --__PACKAGE__`
 4. Commits the changes to git.
   * This can be avoided by using the -p (preview) flag.
 
+## Terminate environment
+
+    unboxme [__PROJECT__] terminate
+    
+Short version: `nb [__PROJECT__] -t`
+
+## Reload environment
+
+    unboxme [__PROJECT__] reload
+    
+Short version: `nb [__PROJECT__] -r`
+
 ## Stage
 
     unboxme [__PROJECT__] stage [__LOCATION__]
