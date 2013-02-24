@@ -103,12 +103,14 @@ Short version: `nb [__PROJECT__] -d [__LOCATION__]`
 
 ## Navigate / Switch to a project from anywhere
 
-    unboxme __PROJECT__
+    unboxme [__PROJECT__]
 
 Short version: `nb [__PROJECT__]`
 
 * Terminates any other current running project and initates __PROJECT__.
 * Will also set the title of the terminal to read __PROJECT__ in uppercase. 
+* If project is left out one is only navigated to ~/boxes, nothing is 
+terminated unless the flag -t (terminate) is passed along. 
 
 ## Destroy project
 
