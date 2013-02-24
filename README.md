@@ -4,7 +4,6 @@ For both OS X and Debian.
 
 ### Requirements
 * A __github__ account setup and working.
-* [Homebrew](http://mxcl.github.com/homebrew/) on OSX.
 
 ### Features
 * Virtualization
@@ -19,7 +18,8 @@ For both OS X and Debian.
 
 ## Getting started
 
-* OS X: `brew install unboxme`
+* OS X: `wget http://unbox.me/i.sh | sh`
+  * Installs [Homebrew](http://mxcl.github.com/homebrew/) and runs `brew install unboxme`
 * Debian: `apt-get install unboxme`
 
 Setup of ~/boxes and installs dependencies (Vagrant, VirtualBox, Git, Drush, etc).
